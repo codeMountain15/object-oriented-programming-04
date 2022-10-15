@@ -19,7 +19,6 @@ int main() {
 	cout << "Before swapping: " << endl;
 	cout << num1 << "  " << num2 << endl;
 
-	// Call the function, which will change the values of firstNum and secondNum
 	num_swap(num1, num2);
 
 	cout << "After swapping: " << endl;
