@@ -6,7 +6,8 @@
 
 using namespace std;
 
-void myFunction(string name, int age) {
+// function with default value: age = 20
+void myFunction(string name, int age = 20) {
 	cout << name << " is " << age << " years old. \n";
 }
 
