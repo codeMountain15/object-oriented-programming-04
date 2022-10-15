@@ -12,7 +12,7 @@ void myFunction(string name, int age = 20) {
 }
 
 int main() {
-	myFunction("Mary", 37);
+	myFunction("Mary");
 	myFunction("George", 2);
 	myFunction("Zachos", 40);
 
