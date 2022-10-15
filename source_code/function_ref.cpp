@@ -13,8 +13,8 @@ void num_swap(int& x, int& y) {
 }
 
 int main() {
-	int num1 = 10;
-	int num2 = 20;
+	int num1 = 50;
+	int num2 = 100;
 
 	cout << "Before swapping: " << endl;
 	cout << num1 << "  " << num2 << endl;
