@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+	// references playing with references
 	size_t a;
 	a = 10;
 	cout << "a = " << a << endl;
@@ -18,7 +19,8 @@ int main()
 	cout << "a = " << a << endl << "b = " << b << endl;
 	cout << "&a = " << &a << endl << "&b = " << &b << endl;
 	cout << endl;
-
+	
+	// pointers playing with references
 	size_t* pointer1;
 	size_t* pointer2;
 	pointer1 = &a;
@@ -29,7 +31,6 @@ int main()
 	cout << "pointer1 = " << pointer1 << endl << "pointer2 = " << pointer2 << endl << endl;
 	cout << "&pointer1 = " << &pointer1 << endl << "&pointer2 = " << &pointer2 << endl << endl;
 	cout << "*pointer1 = " << *pointer1 << endl << "*pointer2 = " << *pointer2 << endl << endl;
-	
-	
+		
 	return 0;
 }
