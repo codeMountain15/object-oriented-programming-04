@@ -1,4 +1,4 @@
-// const_freziness01.cpp
+// const_freziness.cpp
 //
 
 #include <iostream>
@@ -18,7 +18,7 @@ int main()
 	const char* dish2 = food;		// another pointer to constant
 	food[0] = 'c';
 	cout << dish2 << endl;
-
+									// dish[0] = '9'; // error
 	dish2 = "Chaloumi!!!";			// permitted!
 
 	// -----------------------------------------------------------
